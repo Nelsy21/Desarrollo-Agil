@@ -1,7 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
 // Agregando páginas de la aplicación
-import Home from "../Pages/Home.vue";
 import About from "../Pages/About.vue";
 import CalculadoraV1 from "../Pages/calculadora/CalculadoraV1.vue";
 import CalculadoraV2 from "../Pages/calculadora/CalculadoraV2.vue";
@@ -12,9 +11,15 @@ import Recorrido from "../Pages/Recorrido/Recorrido.vue";
 import Horariov2 from "../Pages/Horario/Horariov2.vue";
 import recorridov2 from "../Pages/Recorrido/recorridov2.vue";
 import Recorridov2 from "../Pages/Recorrido/recorridov2.vue";
+import inicio from "../Pages/Inicio/inicio.vue";
 
 // Definir las rutas
 const routes = [
+  {
+    path: "/inicio",
+    name: "inicio",
+    component: inicio,
+  },
   {
     path: "/calculadorav1",
     name: "calculadorav1",

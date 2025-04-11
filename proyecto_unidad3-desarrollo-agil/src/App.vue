@@ -3,7 +3,7 @@
     <div class="container center">
       <nav class="navbar navbar-expand-lg navbar-dark color">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#">UNIDAD III</a>
+          <router-link class="navbar-brand" to="/inicio">Menú</router-link>
           <button
             class="navbar-toggler"
             type="button"
@@ -59,8 +59,6 @@
                 </ul>
               </li>
 
-
-
     <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-white"
@@ -102,7 +100,7 @@
 
 <style scoped>
 .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(195, 216, 231, 0.2);
   border-radius: 8px;
 }
 

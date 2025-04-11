@@ -31,8 +31,8 @@ export default {
 
 <style scoped>
 h3 {
-  color: rgb(255, 255, 255);
-  background-color: rgb(74, 10, 95);
+  color: rgb(1, 1, 1);
+  background-color: rgb(194, 171, 202);
   border-radius: 15px;
   padding: 10px;
 }
